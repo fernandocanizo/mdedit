@@ -1,0 +1,15 @@
+{
+  "name": "mdedit",
+  "version": "0.0.1",
+  "description": "Collaborative Realtime Markdown Editor",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Fernando L. Canizo (http://flc.muriandre.com/)",
+  "license": "MIT"
+}

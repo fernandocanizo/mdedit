@@ -1,9 +1,29 @@
 /* Creation Date: 2015.07.12 */
 
+html, body, section, .full-height {
+	height: 100%;
+}
+
 .container-fluid {
 	margin: 0 1em;
 }
 
 .view {
 	background: #36282f;
+}
+
+#pad{
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+
+	border: none;
+	overflow: auto;
+	outline: none;
+	resize: none;
+
+	box-shadow: none;
+}
+
+#markdown {
+	overflow: auto;
+	border-left: 1px solid black;
 }

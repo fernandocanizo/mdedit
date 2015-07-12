@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Collaborative Realtime Markdown Viewer</title>
+
+		<meta name="author" content="Fernando L. Canizo">
+		<meta name="contact" content="http://flc.muriandre.com/">
+
+		<meta name="description" content="markdown editor">
+		<meta name="keywords" content="markdown editor realtime collaborative">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body class="container-fluid">
+		<section class="row">
+			<textarea class="col-md-6 full-height" id="pad">Write here...</textarea>
+			<div class="col-md-6 full-height view" id="markdown"></div>
+		</section>
+
+		<script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
+		<script src="js/client.js"></script>
+	</body>
+</html>
+
